@@ -1,0 +1,612 @@
+(dk.AI.BehaviorTree.BehaviorTree)
+
+TO-DO :: (Category: ARCHITECTURE) (Priority: 1) Address the various ARCHITECTURE concerns raised in the course of unit testing. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.BehaviorTree)
+
+TO-DO :: (Category: ARCHITECTURE) (Priority: 1) Explore whether we need a different, saner or cleaner way to exit a node. Currently it is somewhat muddy owing to the Exit(*) + HandleNodeSuccess(*) flow. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.BehaviorTree)
+
+TO-DO :: (Category: ARCHITECTURE/DEFECTS) (Priority: 1) Explore why some nodes seem to be swallowed, for instance children of DecoratorNodes. This may or may not be desirable. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.BehaviorTree)
+
+TO-DO :: (Category: ARCHITECTURE/DEFECTS) (Priority: 1) Should a tree be able to continue when some nodes fail (for instance, FailerNodes)? As a corollary, sometimes it seems as if the tree continues after a failure when it shouldn't (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.BehaviorTree)
+
+TO-DO :: (Category: ARCHITECTURE) (Priority: 1) It seems like we should have a completion notification even when a node fails, but only if it is complete, i.e. will not execute again. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.BehaviorTree)
+
+TO-DO :: (Category: ARCHITECTURE/DEFECTS) (Priority: 1) Do RepeaterNodes sometimes skip get skipped or cause the next node to skip? (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.Nodes.InnerNode :: Reset (method))
+
+TO-DO :: (Priority: 199) Replace code at (1) by writing to the Blackboard instead. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Composite.OrderedComposite :: GetChild (method))
+
+TO-DO :: (Priority: 200) Need a guid? There is nothing here to prevent name collisions. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.BehaviorTree)
+
+TO-DO :: (Category: FEATURES) Add visual testing tools. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.BehaviorTree :: StartBehavior (method))
+
+TO-DO :: Need to make DISCRETE case visit all children? (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.EventDrivenBehaviorTree)
+
+TO-DO :: Implement this type of behavior tree. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.Nodes.Inner.ConditionChooserNode)
+
+TO-DO :: Improve, remove or replace the legacy node types at (1) (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.Nodes.Inner.ConditionChooserNode :: Run (method))
+
+TO-DO :: The code starting at (1) and ending at (2) is also present in DataRegistryKeeper; let's try to generalize. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.Nodes.Inner.RepeaterNode)
+
+TO-DO :: Implement a way to iterate a random number of times. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.Nodes.Condition.CallbackNode :: HandleInboundClientEvent (method))
+
+TO-DO :: Need to handle arguments at (1)? (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Audio.JukeBox :: LoadClip (method))
+
+TO-DO :: Test this method, as it has been re-implemented. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.Nodes.Action.ClientEventNode :: Run (method))
+
+TO-DO :: Eventually have to deal with argument passing at (1). (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.Sqlite.Database)
+
+TO-DO :: Test query convenience methods. (line 65)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\IO\Sqlite\Database.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.IO.Sqlite.Database)
+
+TO-DO :: Create unit tests/editor fixture for testing. (line 66)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\IO\Sqlite\Database.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.IO.Sqlite.Database)
+
+TO-DO :: Implement VALUES clause for SELECT (line 67)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\IO\Sqlite\Database.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.IO.Sqlite.Database)
+
+TO-DO :: Finish XML docs documenation (line 68)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\IO\Sqlite\Database.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.IO.Sqlite.Database :: GenerateCompoundSelectStatement (method))
+
+TO-DO :: Implement (line 67)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\IO\Sqlite\Database.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.IO.Sqlite.Database :: GenerateSelectWithStatement (method))
+
+TO-DO :: Implement (line 67)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\IO\Sqlite\Database.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.IO.Sqlite.Database :: GenerateUpdateWithStatement (method))
+
+TO-DO :: Implement (line 67)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\IO\Sqlite\Database.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.Tools.Serialization.JSONHelper :: WriteJSONFile (method))
+
+TO-DO :: Add file overwrite warning to (1). (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Tools.Serialization.JSONHelper :: WriteJSONFile (method))
+
+TO-DO :: Handle this case (2). (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Tools.Serialization.JSONHelper :: ReadJSONFile (method))
+
+TO-DO :: Handle this case (1). (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Tools.Debug.UnityTypeInspector)
+
+TO-DO :: Add method to list assemblies. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Tools.Debug.UnityTypeInspector)
+
+TO-DO :: Add assembly inspection methods. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Extension.AudioClipExtensions :: LoadAudioFromRawData (method))
+
+TO-DO :: Test code (1). (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Extension.AudioClipExtensions :: LoadAudioFromRawData (method))
+
+TO-DO :: Test all code after (2). (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.Sqlite.Database)
+
+TO-DO :: Finish query convenience methods. (line 64)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\IO\Sqlite\Database.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.Tools.Debug.TaskLogWindow)
+
+TO-DO :: Refactor this to use the Singleton util once that class can handle objects that derive from System.Object. (line 40)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Editor\TaskLogWindow.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll]
+
+====================
+
+(dk.IO.SceneLoader)
+
+TO-DO :: Add functionality for loading scenes via asset bundles based on the value of _streamLiveScenes. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Need to add more error handling and debug statements. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(SnS.UI.UIModel :: updateInterval1024FPS (property))
+
+TO-DO :: Move this to another model? Pertains to other things besides UI. (line 27)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\UI\Model\UIModel.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(SnS.UI.UIModel :: updateInterval240FPS (property))
+
+TO-DO :: Move this to another model? Pertains to other things besides UI. (line 27)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\UI\Model\UIModel.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(SnS.UI.UIModel :: updateInterval120FPS (property))
+
+TO-DO :: Move this to another model? Pertains to other things besides UI. (line 27)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\UI\Model\UIModel.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(SnS.UI.UIModel :: updateInterval60FPS (property))
+
+TO-DO :: Move this to another model? Pertains to other things besides UI. (line 27)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\UI\Model\UIModel.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(SnS.UI.UIModel :: updateInterval30FPS (property))
+
+TO-DO :: Move this to another model? Pertains to other things besides UI. (line 27)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\UI\Model\UIModel.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(SnS.UI.UIModel :: updateInterval15FPS (property))
+
+TO-DO :: Move this to another model? Pertains to other things besides UI. (line 27)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\UI\Model\UIModel.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(SnS.UI.RelativeScreenScaler :: RescaleToFixedPercentage (method))
+
+TO-DO :: Factor in size scaling of assets at (1) (line 99)
+
+[File: G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets\Scripts\UI\RelativeScreenScaler.cs]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Library/ScriptAssemblies/Assembly-CSharp.dll]
+
+====================
+
+(dk.Tools.Debug.TaskLogger :: LogTask (method))
+
+TO-DO :: Try to find a solution for filename and line number for classes loaded from an assembly. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Math.Spline.SplineController :: FollowSpline (method))
+
+TO-DO :: Fix the try/catch below, which periodically emits exceptions. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add swipe, tap, zoom and rotate. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Multiple camera support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Better layer mask support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Switch FixedUpdate to Coroutines. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add delegates for input events to handle events generically. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add xbox 360 controller support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add xbox one controller support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add vive controller support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Implement double-click support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Add keyboard support? (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Add xbox controller support? (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Add delegates for input events to handle events generically. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Switch FixedUpdate to Coroutines. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Better layer mask support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.Extension.EnumExtensions)
+
+TO-DO :: Find a more elegant way to handle different numeric types. Might not be possible. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Multiple camera support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Need to add more error handling and debug statements. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Implement double-click support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add keyboard support in the form of key mapping configurations. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add Daydream controller support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add razer hydra support. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler2D)
+
+TO-DO :: Add vive knuckle controller support (when released). (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.IO.InputHandler3D)
+
+TO-DO :: Add swipe, tap, zoom and rotate. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
+(dk.AI.BehaviorTree.BehaviorTreeMixins)
+
+TO-DO :: Try to integrate EnumExtensions methods for flag setting. Having a hard time getting it working with this generic class. (line unknown)
+
+[File: {Unknown: probably contained in an assembly.}]
+[Assembly: file:///G:/1_Projects/Job Search/Pathfinding-Sandbox-Unity/source/hg/pathfinding-sandbox-unity/code/Pathfinding-Sandbox-Unity/Assets/Assemblies/KitchenSink-VS.dll]
+
+====================
+
